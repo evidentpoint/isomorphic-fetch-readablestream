@@ -1,0 +1,22 @@
+{
+  "name": "isomorphic-fetch-readablestream",
+  "version": "1.0.0",
+  "description": "Wrapper for 'fetch-readablestream' to support both browser (with a bundler) and node environments",
+  "main": "main.node.js",
+  "browser": "main.browser.js",
+  "typings": "main.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/evidentpoint/isomorphic-fetch-readablestream.git"
+  },
+  "author": "Juan Corona <juanc@evidentpoint.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evidentpoint/isomorphic-fetch-readablestream/issues"
+  },
+  "homepage": "https://github.com/evidentpoint/isomorphic-fetch-readablestream#readme",
+  "dependencies": {
+    "fetch-readablestream": "^0.1.0",
+    "node-fetch": "^2.1.1"
+  }
+}
